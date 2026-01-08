@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 1600px;
+}
+
+.inter-uniquifier{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.navbar {
+display: flex;
+justify-content: space-around;
+padding-top: 16px;
+padding-bottom: 32px;
+align-items: center;
+}
+
+.div-list{
+    display: flex;
+    gap: 32px;
+}
+.div-list li{
+    list-style: none;
+    mar
+}
+.div-list li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.btn{
+    padding: 12.5px 16px;
+    border-radius: 4px;
+    font-weight: 600;
+    background-color: #469165;
+    color: #FFFFFF;
+    border: none;
+}
+.btn:hover{
+    background-color: lightgreen;
+    color: rgb(41, 40, 40);
+    transition: all 0.3s ease;
+}
