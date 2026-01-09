@@ -135,13 +135,13 @@ align-items: center;
 }
 .card-container{
     display: flex;
+    gap: 24px;
 }
 .card img{
     width: 32px;
     height: 32px;
     background-color: #F95555;
     border-radius: 50%;
-    /* border: 14px solid #F95555; */
 }
 .card h3{
     color: #001931;
@@ -249,4 +249,44 @@ margin-top: 44px;
     font-size: 16px;
     line-height: 20px;
     color: #627382;
+}
+/* footer design */
+
+#footer{
+    background-color: #001931;
+}
+
+.footer-div1{
+    display: flex;
+    padding: 120px 120px 80px;
+    justify-content: space-between;
+}
+
+.footer-p{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+.footer-div2 a{
+    color: #ffffff;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.hr{
+    color: #FAFAFA;
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.footer-caption{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FAFAFA;
+    padding: 30px 0;
 }
