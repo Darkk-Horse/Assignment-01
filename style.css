@@ -26,12 +26,12 @@ align-items: center;
 }
 .div-list li{
     list-style: none;
-    mar
 }
 .div-list li a{
     text-decoration: none;
-    color: black;
+    color: #000000;
     font-size: 16px;
+    font-weight: 500;
 }
 .btn{
     padding: 12.5px 16px;
@@ -40,6 +40,7 @@ align-items: center;
     background-color: #469165;
     color: #FFFFFF;
     border: none;
+    font-size: 16px;
 }
 .btn:hover{
     background-color: lightgreen;
@@ -64,6 +65,8 @@ align-items: center;
     padding: 8px 12px 8px 34px;
     border-radius: 1000px;
     margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
 }
 .hero-h1{
     color: #FFFFFF;
@@ -75,6 +78,7 @@ align-items: center;
 .hero-div-p2{
     line-height: 24px;
     color: #FFFFFF;
+    font-size: 18px;
     
 }
 .hero-div-2{
@@ -90,6 +94,8 @@ align-items: center;
     gap: 10px;
     border-radius: 4px;
     border: none;
+    font-size: 16px;
+    font-weight: 600;
 }
 .hero-btn1:hover{
     background-color: lightgreen;
@@ -102,6 +108,9 @@ align-items: center;
     padding: 16px 16px 16px 46px;
     border-radius: 4px;
    border: #FFFFFF 1px solid;
+   font-size:16px;
+    font-weight:600;
+
 }
 .hero-btn-div1{
     display: inline-flex;
