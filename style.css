@@ -57,7 +57,6 @@ align-items: center;
 .hero-div-p1{
     color: #469165;
     background-color: #FFFFFF;
-    background-color:;
     width: 229px;
     height: 35px;
     margin: 0 auto;
@@ -207,6 +206,13 @@ margin-top: 44px;
     font-size: 16px;
     line-height: 20px;
     color: #627382;
+}
+
+.spl-p{
+    line-height: 20px;
+    font-size: 16px;
+    color: #627382;
+
 }
 .capture{
     display:flex;
